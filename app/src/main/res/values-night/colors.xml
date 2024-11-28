@@ -1,22 +1,22 @@
 <resources>
     <!-- Couleurs principales -->
-    <color name="primary_dark">#FF5722</color> <!-- Orange foncé -->
-    <color name="primary_variant_dark">#E64A19</color> <!-- Orange plus sombre -->
-    <color name="secondary_dark">#0288D1</color> <!-- Bleu foncé -->
-    <color name="secondary_variant_dark">#0277BD</color> <!-- Bleu plus sombre -->
+    <color name="primary">#FF5722</color>
+    <color name="primary_variant">#E64A19</color>
+    <color name="secondary">#03A9F4</color>
+    <color name="secondary_variant">#0288D1</color>
 
     <!-- Couleurs de fond -->
-    <color name="background_dark">#121212</color> <!-- Fond sombre -->
-    <color name="surface_dark">#1E1E1E</color> <!-- Surface gris foncé -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
 
     <!-- Couleurs du texte -->
-    <color name="text_primary_dark">#FFFFFF</color> <!-- Texte blanc -->
-    <color name="text_secondary_dark">#B3B3B3</color> <!-- Texte gris clair -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B3B3B3</color>
 
     <!-- Couleurs des boutons -->
-    <color name="button_dark">#81C784</color> <!-- Vert clair pour les boutons -->
-    <color name="button_text_dark">#FFFFFF</color> <!-- Texte blanc pour les boutons -->
+    <color name="button_dark">#81C784</color>
+    <color name="button_text_dark">#FFFFFF</color>
 
     <!-- Couleurs des erreurs -->
-    <color name="error_dark">#CF6679</color> <!-- Rouge sombre -->
+    <color name="error_dark">#CF6679</color>
 </resources>

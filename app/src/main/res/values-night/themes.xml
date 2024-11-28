@@ -2,20 +2,20 @@
     <!-- Thème principal sombre -->
     <style name="Theme.UserInterfaceApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Couleurs principales -->
-        <item name="colorPrimary">@color/primary_dark</item>
-        <item name="colorPrimaryVariant">@color/primary_variant_dark</item>
-        <item name="colorSecondary">@color/secondary_dark</item>
-        <item name="colorSecondaryVariant">@color/secondary_variant_dark</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
 
         <!-- Couleurs de fond -->
         <item name="android:colorBackground">@color/background_dark</item>
-        <item name="android:colorSurface">@color/surface_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
 
         <!-- Couleurs du texte -->
         <item name="android:textColorPrimary">@color/text_primary_dark</item>
         <item name="android:textColorSecondary">@color/text_secondary_dark</item>
 
-        <!-- Couleurs des boutons -->
+        <!-- Boutons -->
         <item name="buttonStyle">@style/Widget.MaterialComponents.Button</item>
     </style>
 </resources>

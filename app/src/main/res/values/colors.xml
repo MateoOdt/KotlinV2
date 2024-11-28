@@ -1,9 +1,9 @@
 <resources>
     <!-- Couleurs principales -->
-    <color name="primary_light">#FF9800</color> <!-- Orange clair -->
-    <color name="primary_variant_light">#F57C00</color> <!-- Orange plus sombre -->
-    <color name="secondary_light">#03A9F4</color> <!-- Bleu clair -->
-    <color name="secondary_variant_light">#0288D1</color> <!-- Bleu plus sombre -->
+    <color name="primary">#FF9800</color> <!-- Orange clair -->
+    <color name="primary_variant">#F57C00</color> <!-- Orange plus sombre -->
+    <color name="secondary">#03A9F4</color> <!-- Bleu clair -->
+    <color name="secondary_variant">#0288D1</color> <!-- Bleu plus sombre -->
 
     <!-- Couleurs de fond -->
     <color name="background_light">#FFFFFF</color> <!-- Fond blanc -->
@@ -14,8 +14,8 @@
     <color name="text_secondary_light">#757575</color> <!-- Texte gris foncé -->
 
     <!-- Couleurs des boutons -->
-    <color name="button_light">#4CAF50</color> <!-- Vert clair pour les boutons -->
-    <color name="button_text_light">#FFFFFF</color> <!-- Texte blanc pour les boutons -->
+    <color name="button_light">#4CAF50</color> <!-- Vert clair -->
+    <color name="button_text_light">#FFFFFF</color> <!-- Texte blanc -->
 
     <!-- Couleurs des erreurs -->
     <color name="error_light">#D32F2F</color> <!-- Rouge -->
