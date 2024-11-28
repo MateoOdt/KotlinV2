@@ -1,27 +1,22 @@
 <resources>
     <!-- Couleurs principales -->
-    <color name="purple_200">#BB86FC</color>
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
-    <color name="teal_200">#03DAC5</color>
-    <color name="teal_700">#018786</color>
-
-    <!-- Couleurs de base -->
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
-    <color name="gray">#808080</color>
+    <color name="primary_light">#FF9800</color> <!-- Orange clair -->
+    <color name="primary_variant_light">#F57C00</color> <!-- Orange plus sombre -->
+    <color name="secondary_light">#03A9F4</color> <!-- Bleu clair -->
+    <color name="secondary_variant_light">#0288D1</color> <!-- Bleu plus sombre -->
 
     <!-- Couleurs de fond -->
-    <color name="background_light">#F5F5F5</color>
-    <color name="background_dark">#121212</color>
+    <color name="background_light">#FFFFFF</color> <!-- Fond blanc -->
+    <color name="surface_light">#F5F5F5</color> <!-- Surface gris clair -->
 
     <!-- Couleurs du texte -->
-    <color name="text_primary_light">#212121</color>
-    <color name="text_secondary_light">#757575</color>
-    <color name="text_primary_dark">#FFFFFF</color>
-    <color name="text_secondary_dark">#B3B3B3</color>
+    <color name="text_primary_light">#212121</color> <!-- Texte noir -->
+    <color name="text_secondary_light">#757575</color> <!-- Texte gris foncé -->
+
+    <!-- Couleurs des boutons -->
+    <color name="button_light">#4CAF50</color> <!-- Vert clair pour les boutons -->
+    <color name="button_text_light">#FFFFFF</color> <!-- Texte blanc pour les boutons -->
 
     <!-- Couleurs des erreurs -->
-    <color name="error">#B00020</color>
-    <color name="onError">#FFFFFF</color>
+    <color name="error_light">#D32F2F</color> <!-- Rouge -->
 </resources>

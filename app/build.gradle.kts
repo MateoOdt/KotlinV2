@@ -36,9 +36,10 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx) // Assurez-vous que cette dépendance pointe vers la dernière version.
+    implementation(libs.androidx.core.ktx) // Pointe vers la dernière version d'AndroidX Core KTX
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+    implementation(libs.material) // Pointe vers la bibliothèque Material définie dans libs.versions.toml
+    implementation("com.google.android.material:material:1.9.0") // Utilisation correcte de la dépendance Material Design Components
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

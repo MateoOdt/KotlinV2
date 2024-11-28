@@ -9,25 +9,41 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
+        <!-- Titre principal -->
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bienvenue à l'application UI"
             android:layout_gravity="center"
-            android:textSize="20sp"
-            android:layout_marginTop="16dp"
-            android:textStyle="bold" />
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="16dp" />
 
+        <!-- Bouton pour passer à la prochaine activité -->
         <Button
             android:id="@+id/btnNextActivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Passer à la prochaine activité"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp" />
+            android:backgroundTint="?attr/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Bouton pour basculer entre les modes clair et sombre -->
+        <Button
+            android:id="@+id/btnToggleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Changer le mode"
+            android:layout_gravity="center"
+            android:backgroundTint="?attr/colorSecondary"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <!-- Menu latéral -->
@@ -36,5 +52,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/nav_menu" />
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header"
+        app:itemIconTint="?attr/colorOnSecondary"
+        app:itemTextColor="?attr/colorOnSecondary" />
 </androidx.drawerlayout.widget.DrawerLayout>
