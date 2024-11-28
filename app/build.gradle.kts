@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.userinterfaceapp"
-    compileSdk = 34
+    compileSdk = 35 // Mise à jour vers API 35
 
     defaultConfig {
         applicationId = "com.example.userinterfaceapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35 // Mise à jour vers API 35
         versionCode = 1
         versionName = "1.0"
 
@@ -36,8 +36,7 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.core.ktx) // Assurez-vous que cette dépendance pointe vers la dernière version.
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
